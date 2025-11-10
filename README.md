@@ -1,6 +1,6 @@
 # Invisible Triggers, Visible Threats! Road-Style Adversarial Creation Attack for Visual 3D Detection in Autonomous Driving
 
-This is a official code release of [AdvRoad](https://ieeexplore.ieee.org/abstract/document/10838314)（Physically Realizable Adversarial Creating Attack  Against Vision-Based BEV Space  3D Object Detection）. This code is mainly based on MMDetection3D（v1.0.0rc4）(https://github.com/open-mmlab/mmdetection3d/tree/v1.0.0rc4/mmdet3d/models)、[BEVDet](https://github.com/HuangJunJie2017/BEVDet).
+This is a official code release of [AdvRoad]()（Invisible Triggers, Visible Threats! Road-Style Adversarial Creation Attack for Visual 3D Detection in Autonomous Driving）. This code is mainly based on MMDetection3D（v1.0.0rc4）(https://github.com/open-mmlab/mmdetection3d/tree/v1.0.0rc4/mmdet3d/models)、[BEVDet](https://github.com/HuangJunJie2017/BEVDet).
 
 
 
@@ -56,5 +56,6 @@ python Spoofing3D/adv_road/train.py --config ./configs/bevdet/LidarSys-bevdet-r5
 ```
 python Spoofing3D/adv_road/inference.py --config ./configs/bevdet/LidarSys-bevdet-r50-cbgs-spatial_0.6.py --checkpoint ./checkpoints/LidarSys_bevdet_r50_cbgs_spatial_06_mAP_3174_NDS_3939.pth --path your netG path --type whole(or inference or whole_poster) --ind 111
 ```
+
 
 
